@@ -38,6 +38,7 @@ This repository is a collection of my work and achievements in cybersecurity. It
 ## 📢 Get in Touch
 
 - **LinkedIn**: [Dhruv Prajapati](https://www.linkedin.com/in/dpraj611)
+- **Instagram**: [@_dpraj._](https://www.instagram.com/_dpraj._)
 - **Email**: [praj.dhruv6@gmail.com](mailto:praj.dhruv6@gmail.com)
 
 Feel free to explore, contribute, and connect. Thanks for stopping by! 🚀
