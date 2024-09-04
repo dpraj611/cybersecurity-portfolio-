@@ -17,13 +17,13 @@
 
 ## Clarifying Questions
 
-### What most interests me about the field of cybersecurity?
+- **What most interests me about the field of cybersecurity?**
 I am particularly interested in the dynamic nature of cybersecurity, where the landscape is constantly evolving with new challenges and threats. The opportunity to protect organizations and individuals from these threats excites me and motivates me to stay updated with the latest trends and technologies.
 
-### Who is the audience for my professional statement?
+- **Who is the audience for my professional statement?**
 The primary audience for my professional statement includes cybersecurity recruiters, organizations seeking cybersecurity professionals, as well as fellow students and professionals who are learning and working in the cybersecurity field.
 
-### In what ways can my strengths, values, and interest in cybersecurity support the security goals of various organizations?
+- **In what ways can my strengths, values, and interest in cybersecurity support the security goals of various organizations?**
 My programming skills, analytical mindset, and commitment to protecting data privacy align well with the security goals of organizations. I am eager to apply these strengths to help organizations identify and mitigate potential security risks, ensuring the confidentiality, integrity, and availability of their digital assets.
 
 ## Professional Statement
