@@ -9,7 +9,7 @@
 - **Time management and organization**: I excel at managing multiple tasks and deadlines, ensuring that projects are completed efficiently and on time.
 - **Commitment to continuous improvement**: I am always seeking opportunities to enhance my skills and knowledge in cybersecurity, staying up-to-date with the latest trends, threats, and tools in the industry.
 
-## Step Two: Values
+## Values
 - **Integrity**: I believe in maintaining the highest level of integrity in all aspects of my work. Upholding ethical standards is crucial, especially in cybersecurity, where trust and confidentiality are paramount.
 - **Protecting organizations**: I am deeply committed to safeguarding the data and privacy of organizations. My goal is to create secure environments where sensitive information is protected from unauthorized access.
 - **Privacy of individuals' data**: I value the right to privacy and am dedicated to ensuring that individuals' personal data is handled with the utmost care and respect. Protecting this data from misuse and breaches is a core focus of my work.
