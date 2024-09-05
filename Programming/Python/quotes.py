@@ -1,6 +1,8 @@
 import random
 
-mq = ["The only way to do great work is to love what you do. - Steve Jobs",
+# Define lists of quotes for each category
+motivational_quotes = [
+    "The only way to do great work is to love what you do. - Steve Jobs",
     "Believe you can and you're halfway there. - Theodore Roosevelt",
     "Success is not the key to happiness. Happiness is the key to success. - Albert Schweitzer",
     "Don't watch the clock; do what it does. Keep going. - Sam Levenson",
@@ -48,9 +50,11 @@ mq = ["The only way to do great work is to love what you do. - Steve Jobs",
     "What seems to us as bitter trials are often blessings in disguise. - Oscar Wilde",
     "Your passion is waiting for your courage to catch up.",
     "Success is what happens after you have survived your disappointments.",
-    "Your only limit is your mind."]
+    "Your only limit is your mind."
+]
 
-sq = ["Tears come from the heart and not from the brain. - Leonardo da Vinci",
+sad_quotes = [
+    "Tears come from the heart and not from the brain. - Leonardo da Vinci",
     "It's hard to forget someone who gave you so much to remember.",
     "Sometimes, the hardest part isn't letting go but learning to start over.",
     "The pain of parting is nothing to the joy of meeting again. - Charles Dickens",
@@ -95,9 +99,11 @@ sq = ["Tears come from the heart and not from the brain. - Leonardo da Vinci",
     "Sadness is an emotion we must experience to understand happiness.",
     "Healing doesn’t mean the damage never existed. It means the damage no longer controls your life.",
     "Pain is temporary, but quitting lasts forever.",
-    "Allow yourself to feel, even if it hurts. It’s the first step to healing."]
+    "Allow yourself to feel, even if it hurts. It’s the first step to healing."
+]
 
-hq = [ "Happiness is not something ready-made. It comes from your own actions. - Dalai Lama",
+happy_quotes = [
+    "Happiness is not something ready-made. It comes from your own actions. - Dalai Lama",
     "The best way to cheer yourself up is to try to cheer somebody else up. - Mark Twain",
     "Happiness is a warm puppy. - Charles M. Schulz",
     "For every minute you are angry you lose sixty seconds of happiness. - Ralph Waldo Emerson",
@@ -141,17 +147,34 @@ hq = [ "Happiness is not something ready-made. It comes from your own actions. -
     "Be crazy, be stupid, be silly, be weird. Be whatever, because life is too short to be anything but happy.",
     "You deserve to be happy. Don’t let anyone tell you otherwise.",
     "Happiness is a habit—cultivate it.",
-    "Happiness starts with you—not with your relationships, not with your job, not with your money, but with you."]
+    "Happiness starts with you—not with your relationships, not with your job, not with your money, but with you."
+]
 
 def get_random_quote(category):
     """Return a random quote from the specified category."""
     if category == 1:
-        return random.choice(mq)
+        return random.choice(motivational_quotes)
     elif category == 2:
-        return random.choice(sq)
+        return random.choice(sad_quotes)
     elif category == 3:
-        return random.choice(hq)
+        return random.choice(happy_quotes)
     else:
         return "Oops! Looks like you picked the wrong category. Try 1 for motivational, 2 for sad, or 3 for happy."
 
+def main():
+    print("Welcome to the Quote Generator Extravaganza!")
+    print("Choose your mood:")
+    print("1 - Motivational (Because we all need a push!)")
+    print("2 - Sad (For those rainy days and gloomy vibes.)")
+    print("3 - Happy (For when you just want to smile!)")
+    
+    try:
+        user_choice = int(input("Pick a number to get your quote (1, 2, or 3): "))
+        quote = get_random_quote(user_choice)
+        print("\nHere's your quote of the moment:")
+        print(quote)
+    except ValueError:
+        print("Oops! That’s not a number. Please enter 1, 2, or 3.")
 
+if __name__ == "__main__":
+    main()
